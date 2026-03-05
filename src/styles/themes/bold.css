@@ -42,16 +42,9 @@
   --radius-full: 9999px;
 
   /* ─── Theme-specific ─── */
-  --hero-gradient: radial-gradient(
-      ellipse 80% 50% at 50% -20%,
-      rgba(120, 60, 255, 0.25) 0%,
-      transparent 70%
-    ),
-    radial-gradient(
-      ellipse 60% 40% at 80% 50%,
-      rgba(236, 72, 153, 0.12) 0%,
-      transparent 60%
-    );
+  --hero-gradient:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(120, 60, 255, 0.25) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 40% at 80% 50%, rgba(236, 72, 153, 0.12) 0%, transparent 60%);
   --card-border-width: 1px;
   --timeline-color: rgba(167, 139, 250, 0.2);
   --badge-bg: rgba(167, 139, 250, 0.12);
@@ -82,11 +75,7 @@
 }
 
 [data-theme='bold'] .navbar__link--active {
-  background: linear-gradient(
-    135deg,
-    rgba(167, 139, 250, 0.15),
-    rgba(236, 72, 153, 0.08)
-  );
+  background: linear-gradient(135deg, rgba(167, 139, 250, 0.15), rgba(236, 72, 153, 0.08));
 }
 
 /* ─── Bold Hero: large gradient mesh, glow text ─── */
@@ -200,11 +189,7 @@
 }
 
 [data-theme='bold'] .exp-item::before {
-  background: linear-gradient(
-    to bottom,
-    rgba(167, 139, 250, 0.3),
-    rgba(236, 72, 153, 0.1)
-  );
+  background: linear-gradient(to bottom, rgba(167, 139, 250, 0.3), rgba(236, 72, 153, 0.1));
 }
 
 /* ─── Bold Tags: glass pills ─── */
@@ -295,11 +280,7 @@
 }
 
 [data-theme='bold'] .theme-switcher__btn[aria-checked='true'] {
-  background: linear-gradient(
-    135deg,
-    rgba(167, 139, 250, 0.2),
-    rgba(236, 72, 153, 0.1)
-  );
+  background: linear-gradient(135deg, rgba(167, 139, 250, 0.2), rgba(236, 72, 153, 0.1));
   box-shadow: 0 0 12px rgba(167, 139, 250, 0.15);
 }
 

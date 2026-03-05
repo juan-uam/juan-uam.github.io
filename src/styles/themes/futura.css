@@ -43,10 +43,10 @@
 
   /* ─── Theme-specific ─── */
   --hero-gradient: radial-gradient(
-      ellipse 70% 50% at 50% 0%,
-      rgba(6, 182, 212, 0.06) 0%,
-      transparent 70%
-    );
+    ellipse 70% 50% at 50% 0%,
+    rgba(6, 182, 212, 0.06) 0%,
+    transparent 70%
+  );
   --card-border-width: 1px;
   --timeline-color: #e4e4e7;
   --badge-bg: #f4f4f5;
@@ -61,7 +61,12 @@
  * ─────────────────────────────────────────────────────────── */
 
 [data-theme='futura'] body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family:
+    'Inter',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   letter-spacing: -0.011em;
 }
@@ -119,9 +124,10 @@
 [data-theme='futura'] .hero__bg {
   opacity: 1;
   background-image:
-    var(--hero-gradient),
-    radial-gradient(circle, rgba(0, 0, 0, 0.06) 1px, transparent 1px);
-  background-size: 100% 100%, 24px 24px;
+    var(--hero-gradient), radial-gradient(circle, rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+  background-size:
+    100% 100%,
+    24px 24px;
 }
 
 [data-theme='futura'] .hero__avatar {
@@ -182,12 +188,7 @@
   left: 1.5rem;
   right: 1.5rem;
   height: 1px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(6, 182, 212, 0.2),
-    transparent
-  );
+  background: linear-gradient(90deg, transparent, rgba(6, 182, 212, 0.2), transparent);
   border-radius: 1px;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -226,11 +227,7 @@
 
 [data-theme='futura'] .exp-item::before {
   width: 1px;
-  background: linear-gradient(
-    to bottom,
-    var(--color-border),
-    transparent
-  );
+  background: linear-gradient(to bottom, var(--color-border), transparent);
 }
 
 [data-theme='futura'] .exp-item__role {

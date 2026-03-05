@@ -269,10 +269,22 @@
 }
 
 /* Colored categories */
-[data-theme='math'] .tag:nth-child(4n+1) { color: var(--math-blue); border-color: var(--math-blue); }
-[data-theme='math'] .tag:nth-child(4n+2) { color: var(--math-red); border-color: var(--math-red); }
-[data-theme='math'] .tag:nth-child(4n+3) { color: var(--math-green); border-color: var(--math-green); }
-[data-theme='math'] .tag:nth-child(4n+4) { color: var(--math-purple); border-color: var(--math-purple); }
+[data-theme='math'] .tag:nth-child(4n + 1) {
+  color: var(--math-blue);
+  border-color: var(--math-blue);
+}
+[data-theme='math'] .tag:nth-child(4n + 2) {
+  color: var(--math-red);
+  border-color: var(--math-red);
+}
+[data-theme='math'] .tag:nth-child(4n + 3) {
+  color: var(--math-green);
+  border-color: var(--math-green);
+}
+[data-theme='math'] .tag:nth-child(4n + 4) {
+  color: var(--math-purple);
+  border-color: var(--math-purple);
+}
 
 /* ─── Badges: MSC classification style ─── */
 

@@ -42,11 +42,7 @@
   --radius-full: 3px;
 
   /* ─── Theme-specific ─── */
-  --hero-gradient: linear-gradient(
-    170deg,
-    rgba(212, 168, 67, 0.04) 0%,
-    transparent 40%
-  );
+  --hero-gradient: linear-gradient(170deg, rgba(212, 168, 67, 0.04) 0%, transparent 40%);
   --card-border-width: 1px;
   --timeline-color: rgba(212, 168, 67, 0.15);
   --badge-bg: rgba(212, 168, 67, 0.08);
@@ -61,7 +57,11 @@
  * ─────────────────────────────────────────────────────────── */
 
 [data-theme='finance'] body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family:
+    'Inter',
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
   letter-spacing: 0;
 }
 

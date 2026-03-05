@@ -71,16 +71,16 @@
 
 /* System-style bitmap font feel via fallback stack */
 [data-theme='retro'] body {
-  font-family: 'Chicago', 'Geneva', 'Charcoal', 'Lucida Grande',
-    'Helvetica Neue', Arial, sans-serif;
+  font-family:
+    'Chicago', 'Geneva', 'Charcoal', 'Lucida Grande', 'Helvetica Neue', Arial, sans-serif;
 }
 
 [data-theme='retro'] h1,
 [data-theme='retro'] h2,
 [data-theme='retro'] h3,
 [data-theme='retro'] h4 {
-  font-family: 'Chicago', 'Geneva', 'Charcoal', 'Lucida Grande',
-    'Helvetica Neue', Arial, sans-serif;
+  font-family:
+    'Chicago', 'Geneva', 'Charcoal', 'Lucida Grande', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 0;
 }
@@ -288,12 +288,30 @@
 }
 
 /* Color each dot differently using nth-child */
-[data-theme='retro'] .exp-item:nth-child(6n+1) .exp-item__dot { background: var(--retro-green); box-shadow: 0 0 0 2px var(--retro-green); }
-[data-theme='retro'] .exp-item:nth-child(6n+2) .exp-item__dot { background: var(--retro-yellow); box-shadow: 0 0 0 2px var(--retro-yellow); }
-[data-theme='retro'] .exp-item:nth-child(6n+3) .exp-item__dot { background: var(--retro-orange); box-shadow: 0 0 0 2px var(--retro-orange); }
-[data-theme='retro'] .exp-item:nth-child(6n+4) .exp-item__dot { background: var(--retro-red); box-shadow: 0 0 0 2px var(--retro-red); }
-[data-theme='retro'] .exp-item:nth-child(6n+5) .exp-item__dot { background: var(--retro-purple); box-shadow: 0 0 0 2px var(--retro-purple); }
-[data-theme='retro'] .exp-item:nth-child(6n+6) .exp-item__dot { background: var(--retro-blue); box-shadow: 0 0 0 2px var(--retro-blue); }
+[data-theme='retro'] .exp-item:nth-child(6n + 1) .exp-item__dot {
+  background: var(--retro-green);
+  box-shadow: 0 0 0 2px var(--retro-green);
+}
+[data-theme='retro'] .exp-item:nth-child(6n + 2) .exp-item__dot {
+  background: var(--retro-yellow);
+  box-shadow: 0 0 0 2px var(--retro-yellow);
+}
+[data-theme='retro'] .exp-item:nth-child(6n + 3) .exp-item__dot {
+  background: var(--retro-orange);
+  box-shadow: 0 0 0 2px var(--retro-orange);
+}
+[data-theme='retro'] .exp-item:nth-child(6n + 4) .exp-item__dot {
+  background: var(--retro-red);
+  box-shadow: 0 0 0 2px var(--retro-red);
+}
+[data-theme='retro'] .exp-item:nth-child(6n + 5) .exp-item__dot {
+  background: var(--retro-purple);
+  box-shadow: 0 0 0 2px var(--retro-purple);
+}
+[data-theme='retro'] .exp-item:nth-child(6n + 6) .exp-item__dot {
+  background: var(--retro-blue);
+  box-shadow: 0 0 0 2px var(--retro-blue);
+}
 
 [data-theme='retro'] .exp-item::before {
   background: linear-gradient(
@@ -319,12 +337,30 @@
   letter-spacing: 0.03em;
 }
 
-[data-theme='retro'] .tag:nth-child(6n+1) { color: var(--retro-green); border-color: var(--retro-green); }
-[data-theme='retro'] .tag:nth-child(6n+2) { color: var(--retro-yellow); border-color: var(--retro-yellow); }
-[data-theme='retro'] .tag:nth-child(6n+3) { color: var(--retro-orange); border-color: var(--retro-orange); }
-[data-theme='retro'] .tag:nth-child(6n+4) { color: var(--retro-red); border-color: var(--retro-red); }
-[data-theme='retro'] .tag:nth-child(6n+5) { color: var(--retro-purple); border-color: var(--retro-purple); }
-[data-theme='retro'] .tag:nth-child(6n+6) { color: var(--retro-blue); border-color: var(--retro-blue); }
+[data-theme='retro'] .tag:nth-child(6n + 1) {
+  color: var(--retro-green);
+  border-color: var(--retro-green);
+}
+[data-theme='retro'] .tag:nth-child(6n + 2) {
+  color: var(--retro-yellow);
+  border-color: var(--retro-yellow);
+}
+[data-theme='retro'] .tag:nth-child(6n + 3) {
+  color: var(--retro-orange);
+  border-color: var(--retro-orange);
+}
+[data-theme='retro'] .tag:nth-child(6n + 4) {
+  color: var(--retro-red);
+  border-color: var(--retro-red);
+}
+[data-theme='retro'] .tag:nth-child(6n + 5) {
+  color: var(--retro-purple);
+  border-color: var(--retro-purple);
+}
+[data-theme='retro'] .tag:nth-child(6n + 6) {
+  color: var(--retro-blue);
+  border-color: var(--retro-blue);
+}
 
 /* ─── Badges: retro colored ─── */
 
@@ -467,14 +503,15 @@
 [data-theme='retro'] .prose blockquote {
   border-left: 4px solid;
   border-image: linear-gradient(
-    to bottom,
-    var(--retro-green),
-    var(--retro-yellow),
-    var(--retro-orange),
-    var(--retro-red),
-    var(--retro-purple),
-    var(--retro-blue)
-  ) 1;
+      to bottom,
+      var(--retro-green),
+      var(--retro-yellow),
+      var(--retro-orange),
+      var(--retro-red),
+      var(--retro-purple),
+      var(--retro-blue)
+    )
+    1;
   background: rgba(0, 157, 220, 0.04);
   padding: var(--space-sm) var(--space-md);
 }
