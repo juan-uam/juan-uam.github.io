@@ -1,10 +1,10 @@
-- id: elena
-  name: Elena Navarro
+- id: juan
+  name: Juan Fernández
   role: Software Engineer & Creative Technologist
   tagline: Building clean, accessible digital experiences with curiosity and craft.
   location: Madrid, Spain
-  email: elena@example.dev
-  github: https://github.com/elenanavarro
+  email: juan@example.dev
+  github: https://github.com/juan
   linkedin: https://linkedin.com/in/elenanavarro
   avatar: /avatar-placeholder.svg
   bio:
