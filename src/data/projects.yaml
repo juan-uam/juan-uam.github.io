@@ -7,7 +7,7 @@
     - IndexedDB
     - WebSockets
   url: https://taskflow.demo.dev
-  repo: https://github.com/elenanavarro/taskflow
+  repo: https://github.com/juan-uam/taskflow
   featured: true
 
 - id: dataviz-studio
@@ -19,7 +19,7 @@
     - FastAPI
     - Data Visualization
   url: https://dataviz-studio.demo.dev
-  repo: https://github.com/elenanavarro/dataviz-studio
+  repo: https://github.com/juan-uam/dataviz-studio
   featured: true
 
 - id: opencontrib
@@ -30,5 +30,5 @@
     - CLI
     - GitHub API
     - Open Source
-  repo: https://github.com/elenanavarro/opencontrib
+  repo: https://github.com/juan-uam/opencontrib
   featured: true
